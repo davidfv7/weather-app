@@ -1,4 +1,6 @@
 import logo from './logo.svg';
+
+import CityInfo from './components/CityInfo/CityInfo';
 import './App.css';
 
 function App() {
@@ -9,14 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <CityInfo city="Toluca" country="Mexico"/>
       </header>
     </div>
   );
